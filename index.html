@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Distribuidora El Mestizo</title>
+    <link rel="stylesheet" href="./Css/archivo.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+</head>
+<body class="bodyIndex">
+    <header>
+        <h1> Distribuidora El Mestizo</h1>
+        <p class="horarios"> Horarios: L a V de 8 a 17hs. Sabados 8 a 13hs</p>
+    </header>
+    <!-- Inicio de barra navegacion-->
+    <nav>
+        <ul>
+            <li>
+                <a href="index.html"> Inicio</a>
+            </li>
+            <li>
+                <a href="html/herramientas.html">Herramientas</a>
+            </li>
+            <li>
+                <a href="html/productos.html">Productos</a>
+            </li>
+            <li><a href="html/tipsrefrigeracion.html">Tips Refrigeracion</a>
+            </li>
+            <li>
+                <a href="html/noticias.html">Noticias</a>
+            </li>
+        </ul>
+    </nav>
+    <!-- Fin de barra navegacion - Inicio main y formulario de contacto-->
+    <section>
+        <main>
+            <p> 
+                Bienvenidos a <strong>Distribuidora El Mestizo</strong> una Distribuidora de refrigeracion 100% online donde vas a poder encontrar
+                la solucion a todos tus problemas. <br> <br>
+                Nuestro proyecto nacio en 2021, cuando un grupo de amigos estaba estancado en su plano laboral de ese momento, crear un espacio en el cual los tecnicos puedan hacer una comparativa de la mayor cantidad de productos de refrigeracion posible. Brindando informacion sobre: <br>
+            </p>
+                <ol>
+                    <li>Herramientas</li>
+                    <li>Productos</li>
+                    <li>Tips Refrigeracion</li>
+                    <li>Noticias</li>
+                </ol> 
+            <p>
+                Y muchas, pero muchas cosas mas que un verdadero profesional de la refrigeracion desea saber. a continuacion, te solicitaremos tus datos para que seas parte de esta increible comunidad que se esta formando y tengas la posibilidad de contarnos tu experiencia y como podes ayudarnos a crecer.
+            </p> 
+        </section>
+        <section class="formularioContacto">
+            <div>
+                <legend class="titularNoticias"> Formulario de contacto</legend>
+                <label for="Nombre"> Escribe tu Nombre </label> 
+                <input type="text" name="Nombre" required> <br>
+                <label for="apellido"> Escribe Tu Apellido  </label>
+                <input type="text" name="Apellido" required>
+            </div><br>
+            <div>
+                <label for="email"> Correo electronico </label>
+                <input type="email" name="email" required>
+            </div> <br>
+            <div>
+                <label for="Password">Contraseña</label>
+                <input type="Password" name="password" required> 
+            </div> <br>
+            <div>
+                <label for="Ubicacion"> Selecciona tu ubicaion </label>
+                <select name="Ubicacion">
+                    <option value="Capital_Federal">Capital Federal</option>
+                    <option value="Zona_sur_Buenos_Aires"> Zona sur buenos Aires</option>
+                    <option value="Zona_oeste_Buenos_Aires">Zona oeste Buenos Aires</option>
+                    <option value="Zona_Norte_Buenos_Aires"> Zona norte Buenos Aires</option>
+                </select>
+            </div> <br>
+            <div>
+                <label for="Comentario"> Escribe tu mensaje </label> <br>
+                <textarea name="Comentario" id="" cols="30" rows="10"></textarea>
+            </div> <br>
+            <div>
+                <label for="Terminos">Acepta Terminos y Condiciones</label>
+                <input type="checkbox" Name="terminos" required>
+            <br>
+                <input type="submit" name="Enviar Datos" id="">
+                <input type="Reset" name="Limpiar Formulario" id="">
+            </div>
+        </main>
+    </section>
+    <!-- Fin de formulario de contacto - Inicio de footer-->
+    <footer>
+        <p>Matias Gonzalez - Tutor Federico aletti</p>
+    </footer>
+</body>
+</html>
