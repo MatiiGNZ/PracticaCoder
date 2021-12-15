@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bodyIndex">
     <header>
@@ -35,7 +37,7 @@
         </ul>
     </nav>
     <!-- Fin de barra navegacion - Inicio de Noticias -->
-    <section>
+    <section class="animate__animated animate__rollIn animate__slow">
         <h3 class="titularNoticias"> 7 de septiembre</h3>
         <img src="../img/Cocacola-Amoniaco.jpg" alt="Fabrica Coca Cola" width="500px">
         <p> 
@@ -43,7 +45,7 @@
         </p>
     </section>
     <section>
-        <div>       
+        <div class="animate__animated animate__rollIn animate__slow">       
             <p>
                 La sede de Coca-Cola Liberia, ubicada en la provincia de Guanacaste, instaló un sistema de refrigeración de amoniaco de expansión directa y baja carga, un proyecto en el que participó el contratista: Refrigeración y Soluciones de Frío (RSF). <br>
                 El proyecto requería poner en marcha todo el sistema de refrigeración de la planta que incluía el aire acondicionado, la refrigeración del agua de proceso y la climatización de las cámaras de almacenamiento refrigerado y cámara congelado.
@@ -54,7 +56,7 @@
         </div>
     </section>
     <section>
-        <div>
+        <div class="animate__animated animate__rollIn animate__slow">
             <h3 class="titularNoticias"> 4 de septiembre </h3>
             <img src="../img/Sistema-chino.jpg" alt="Imagen barrio de china" width="500px">
             <p> 
@@ -74,5 +76,9 @@
     <footer>
         <p>Matias Gonzalez - Tutor Federico aletti</p>
     </footer>
+    <script src=" https://unpkg.com/aos@next/dist/aos.js"> </script> 
+    <script> 
+        AOS.init(); 
+    </script>
 </body>
 </html>

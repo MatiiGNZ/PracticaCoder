@@ -9,6 +9,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital@1&family=Playfair+Display:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
 </head>
 <body class="bodyIndex">
     <header>
@@ -35,7 +37,7 @@
         </ul>
     </nav>
     <!-- Fin de barra navegacion - Inicio de parrafo con un tip con una tabla-->
-    <section>
+    <section class="animate__animated animate__rollIn animate__slow">
         <div>
             <img src="../img/Circuito-Ref.jpg" alt="Imagen Circuito basico Refrigeracion" width="500px">
             <p>
@@ -45,7 +47,7 @@
             <h4 class="titularNoticias">  Aqui les presento una tabla para que puedan resolverlo </h4> <br>
         </div>
     </section>
-    <section>
+    <section class="animate__animated animate__rollIn animate__slow">
         <div>
             <table border=1 cellspaciing=5px Cellpadding= 10px>
                 <tr>
@@ -108,7 +110,7 @@
             </p> 
         </div> 
         <br>
-        <div>
+        <div class="animate__animated animate__rollIn animate__slow">
             <h4 class="titularNoticias"> Espero que les haya servido de ayuda !!!.  </h4>
         </div>
     </section>
@@ -116,6 +118,9 @@
     <footer>
         <p>Matias Gonzalez - Tutor Federico aletti</p>
     </footer>
-    
+    <script src=" https://unpkg.com/aos@next/dist/aos.js"> </script> 
+    <script> 
+        AOS.init(); 
+    </script>
 </body>
 </html>
