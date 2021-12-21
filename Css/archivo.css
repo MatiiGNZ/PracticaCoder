@@ -23,7 +23,6 @@ header{
             opacity: 1;
         }
 }
-}
 p{
     font-weight: 200;
     font-size: 90%;
@@ -52,8 +51,6 @@ ul li{
 ul li:hover{
     transform: scale( 1.2 , 1.2);
 }
-    
-}
 li a{
     text-decoration: none;
     color: black;
@@ -80,11 +77,20 @@ footer{
     color: red;
     
 }
-.animate__animated.animate__fadeInTopLeft{
-    @keyframes{
-        --animate-duration: 5s;
-    }
+.presentacionIndex{
+    animation-name: opaco;
+    animation-duration: 4s;
 }
+    @keyframes opaco{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
+    
+}
+
 /* clases productos y herramientas*/
 
 .bodyProductos{
@@ -114,5 +120,15 @@ footer{
 .formularioContacto {
     margin-bottom: 30px;
     margin-top: 30px;
-    background-color: #c4d2e7;
+    background-color: #c4d2e7;    
+    animation-name: opaco;
+    animation-duration: 4s;
+}
+    @keyframes opaco{
+        from{
+            opacity: 0;
+        }
+        to{
+            opacity: 1;
+        }
 }
