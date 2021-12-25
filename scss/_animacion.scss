@@ -1,0 +1,13 @@
+$animacion-opaco: { 
+    animation-name: opaco;
+    animation-duration: 4s;
+}
+
+@keyframes opaco{
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

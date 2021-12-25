@@ -1,0 +1,102 @@
+h1{
+    font-weight: 400;
+    font-size: 280%;
+    font-family: 'Playfair Display', serif;
+    color: turquoise;
+    animation-name: opaco;
+    animation-duration: 2s;
+}
+header{
+    @import url(_animacion.scss);
+}
+p{
+    font-weight: 200;
+    font-size: 90%;
+    font-family: 'Montserrat', sans-serif;
+    line-height: 1.7;
+}
+.horarios{
+    font-weight: 400;
+    font-size:140% ;
+    color: rgb(76, 168, 208);
+}
+ul{
+    list-style: none;
+    font-size: 0%;
+    li{
+        display: inline-block;
+        position: relative;
+        font-size: 15px;
+        width: 200px;
+        height:25px;
+        border-style: solid;
+        text-align: center;
+        margin-left: 40px;
+        &hover{
+            transform: scale( 1.2 , 1.2);
+        }
+        a{
+            text-decoration: none;
+            color: black;
+        }
+    }
+}
+ol{
+    list-style-type: inherit;
+    margin-top: 20px;
+    margin-left: 25px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    font-size: 110%;
+
+}
+
+nav{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: sticky;
+    top: 2px;
+    background-color: #88a7d0;
+}
+footer{
+    margin-top: 50px;
+    color: red;
+    
+}
+.presentacionIndex{
+    @import url(_animacion.scss);
+}
+
+/* clases productos y herramientas*/
+
+.bodyProductos{
+    background-color: #486f99 ;
+    color: #ffffff;
+    font-size: 115%;
+}
+.nombreProductosyHerramientas{
+    color: #a6bddc;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+/* clases index - noticias - tips refrigeracion*/
+
+.bodyIndex{
+    background-color: #e2e8f3;
+    color: #486f99;
+}
+
+.titularNoticias {
+    font-size: 115%;
+    color: blue;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.formularioContacto {
+    margin-bottom: 30px;
+    margin-top: 30px;
+    background-color: #c4d2e7; 
+    @import url(_animacion.scss);
+}
+
